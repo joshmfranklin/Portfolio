@@ -3,3 +3,14 @@
 @import "../base/base";
 @import "partials/variables";
 @import "partials/nav";
+@import "partials/video";
+
+.main-title-container {
+  @include outer-container;
+  margin-top: 15em;
+}
+
+.main-title {
+  text-align: center;
+  color: gray;
+}

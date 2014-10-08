@@ -1,0 +1,11 @@
+.bg-vid {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: 10em;
+  height: 12em;
+  z-index: -100;
+  background-size: cover;
+}

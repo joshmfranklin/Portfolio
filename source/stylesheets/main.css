@@ -272,5 +272,29 @@ input[type="submit"] {
 
   .nav-left {
     display: none; } }
+.bg-vid {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: 10em;
+  height: 12em;
+  z-index: -100;
+  background-size: cover; }
+
+.main-title-container {
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15em; }
+  .main-title-container:after {
+    content: "";
+    display: table;
+    clear: both; }
+
+.main-title {
+  text-align: center;
+  color: gray; }
 
 /*# sourceMappingURL=main.css.map */
