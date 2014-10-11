@@ -1,5 +1,5 @@
 .main-nav {
-  background-color: $dark-gray;
+  background-color: $nav-bg-color;
 }
 
 .nav-container {
@@ -17,12 +17,12 @@
 
 .nav-branding {
   text-transform: uppercase;
-  color: white;
+  color: $nav-txt-color;
 }
 
 .nav-links {
   float: right;
-  color: white;
+  color: $nav-txt-color;
 
   li {
     @include pad(0 0 0 2em);

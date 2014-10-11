@@ -227,7 +227,7 @@ input[type="submit"] {
   white-space: nowrap; }
 
 .main-nav {
-  background-color: #333; }
+  background-color: white; }
 
 .nav-container {
   max-width: 68em;
@@ -257,11 +257,11 @@ input[type="submit"] {
 
 .nav-branding {
   text-transform: uppercase;
-  color: white; }
+  color: #333; }
 
 .nav-links {
   float: right;
-  color: white; }
+  color: #333; }
   .nav-links li {
     padding: 0 0 0 2em;
     display: inline-block; }
@@ -283,6 +283,66 @@ input[type="submit"] {
   z-index: -100;
   background-size: cover; }
 
+.grid {
+  max-width: 1300px;
+  margin: 0 auto;
+  list-style: none;
+  text-align: left; }
+  .grid li {
+    text-align: left;
+    position: relative; }
+  .grid figure {
+    margin: 0;
+    position: relative; }
+    .grid figure img {
+      max-width: 100%;
+      display: block;
+      position: relative; }
+  .grid figcaption {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px;
+    background: #2c3f52;
+    color: #ed4e6e; }
+    .grid figcaption h3 {
+      margin: 0;
+      padding: 0;
+      color: #fff; }
+    .grid figcaption span:before {
+      content: 'by '; }
+
+.cs-style-3 figure {
+  overflow: hidden; }
+
+.cs-style-3 figure img {
+  transition: transform 0.4s; }
+
+.no-touch .cs-style-3 figure:hover img,
+.cs-style-3 figure.cs-hover img {
+  transform: translateY(-50px); }
+
+.cs-style-3 figcaption {
+  height: 100px;
+  width: 100%;
+  top: auto;
+  bottom: 0;
+  opacity: 0;
+  transform: translateY(100%);
+  transition: transform 0.4s, opacity 0.1s 0.3s; }
+
+.no-touch .cs-style-3 figure:hover figcaption,
+.cs-style-3 figure.cs-hover figcaption {
+  opacity: 1;
+  transform: translateY(0px);
+  transition: transform 0.4s, opacity 0.1s; }
+
+@media screen and (max-width: 780px) {
+  .grid {
+    padding: 10px 10px 100px 10px; }
+    .grid li {
+      width: 100%;
+      min-width: 300px; } }
 .main-title-container {
   max-width: 68em;
   margin-left: auto;
@@ -296,5 +356,22 @@ input[type="submit"] {
 .main-title {
   text-align: center;
   color: #fff; }
+
+.main-content {
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto; }
+  .main-content:after {
+    content: "";
+    display: table;
+    clear: both; }
+
+.proj-card {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 31.76157%; }
+  .proj-card:last-child {
+    margin-right: 0; }
 
 /*# sourceMappingURL=main.css.map */

@@ -4,6 +4,7 @@
 @import "partials/variables";
 @import "partials/nav";
 @import "partials/video";
+@import "partials/cards";
 
 .main-title-container {
   @include outer-container;
@@ -13,4 +14,12 @@
 .main-title {
   text-align: center;
   color: #fff;
+}
+
+.main-content {
+  @include outer-container;
+}
+
+.proj-card {
+  @include span-columns(4);
 }
