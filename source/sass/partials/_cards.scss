@@ -25,7 +25,7 @@
     background: #2c3f52;
     color: #ed4e6e;
 
-    h3 {
+    h4 {
       margin: 0;
       padding: 0;
       color: #fff;
@@ -67,14 +67,19 @@
     transition: transform 0.4s, opacity 0.1s;
 }
 
+.proj-card {
+  @include span-columns(4);
+  @include omega(3n);
+  @include pad(1em 0);
+}
+
 @include media($mobile) {
   .grid {
     padding: 10px 10px 100px 10px;
 
-    li {
-      width: 100%;
-      min-width: 300px;
-    }
+  }
+  .proj-card {
+    @include span-columns(4);
   }
 }
 

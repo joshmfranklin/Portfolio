@@ -5,21 +5,25 @@
 @import "partials/nav";
 @import "partials/video";
 @import "partials/cards";
+@import "partials/typography";
 
-.main-title-container {
-  @include outer-container;
-  margin-top: 15em;
+.hero-img {
+  background-image: url(../img/hero-img.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
-.main-title {
+.hero-content {
+  display: absolute;
+  @include outer-container;
+  @include pad(10em 2em);
+  color: $white;
   text-align: center;
-  color: #fff;
 }
 
 .main-content {
   @include outer-container;
-}
-
-.proj-card {
-  @include span-columns(4);
+  @include pad(4em 2em);
 }
