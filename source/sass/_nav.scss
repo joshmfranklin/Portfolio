@@ -1,0 +1,43 @@
+.main-nav {
+  background-color: $nav-bg-color;
+}
+
+.nav-container {
+  @include outer-container;
+  @include pad(1em 0);
+}
+
+.nav-right{
+  @include span-columns(6);
+}
+
+.nav-left {
+  @include span-columns(6);
+}
+
+.nav-branding {
+  text-transform: uppercase;
+  color: $nav-txt-color;
+  font-size: 1.5em;
+  letter-spacing: .15em;
+}
+
+.nav-links {
+  float: right;
+  color: $nav-txt-color;
+
+  li {
+    @include pad(0 0 0 2em);
+    display: inline-block;
+
+  }
+}
+
+@include media($mobile) {
+  .nav-container {
+    @include pad(1.5em 1em);
+  }
+  .nav-left {
+    display: none;
+  }
+}
