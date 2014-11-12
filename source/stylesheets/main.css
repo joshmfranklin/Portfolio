@@ -227,13 +227,13 @@ input[type="submit"] {
   white-space: nowrap; }
 
 .main-nav {
-  background-color: #2c3f52; }
+  background-color: white; }
 
 .nav-container {
   max-width: 68em;
   margin-left: auto;
   margin-right: auto;
-  padding: 1.5em 0; }
+  padding: 1em 0; }
   .nav-container:after {
     content: "";
     display: table;
@@ -257,7 +257,9 @@ input[type="submit"] {
 
 .nav-branding {
   text-transform: uppercase;
-  color: #333; }
+  color: #333;
+  font-size: 1.5em;
+  letter-spacing: .15em; }
 
 .nav-links {
   float: right;
@@ -361,43 +363,91 @@ input[type="submit"] {
     width: 100%; }
     .proj-card:last-child {
       margin-right: 0; } }
+body {
+  -webkit-font-smoothing: antialiased;
+  background-color: white;
+  color: #333;
+  font-family: 'Roboto Condensed', sans-serif !important;
+  font-size: 1em;
+  line-height: 1.5; }
+
 h1,
-.h1 {
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Roboto Condensed', sans-serif;
+  line-height: 1.25;
+  margin: 0;
+  text-rendering: optimizeLegibility; }
+
+h1 {
   font-size: 2.25em; }
 
-h2,
-.h2 {
+h2 {
   font-size: 2em; }
 
-h3,
-.h3 {
+h3 {
   font-size: 1.75em; }
 
-h4,
-.h4 {
+h4 {
   font-size: 1.5em; }
 
-h5,
-.h5 {
+h5 {
   font-size: 1.25em; }
 
-h6,
-.h6 {
+h6 {
   font-size: 1em; }
 
+p {
+  margin: 0 0 0.75em; }
+
+a {
+  -webkit-transition: color 0.1s linear;
+  -moz-transition: color 0.1s linear;
+  transition: color 0.1s linear;
+  color: #477DCA;
+  text-decoration: none; }
+  a:hover {
+    color: #2c5999; }
+  a:active, a:focus {
+    color: #2c5999;
+    outline: none; }
+
+hr {
+  border-bottom: 1px solid #DDD;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  margin: 1.5em 0; }
+
+img,
+picture {
+  margin: 0;
+  max-width: 100%; }
+
+blockquote {
+  border-left: 2px solid #DDD;
+  color: #595959;
+  margin: 1.5em 0;
+  padding-left: 0.75em; }
+
+cite {
+  color: #737373;
+  font-style: italic; }
+  cite:before {
+    content: "\2014 \00A0"; }
+
 .hero-img {
-  background-image: url(../img/hero-img.png);
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  background-attachment: fixed; }
+  background: #333; }
 
 .hero-content {
-  display: absolute;
+  display: block;
   max-width: 68em;
   margin-left: auto;
   margin-right: auto;
-  padding: 10em 2em;
+  padding: 18em 2em;
   color: #fff;
   text-align: center; }
   .hero-content:after {
@@ -414,5 +464,9 @@ h6,
     content: "";
     display: table;
     clear: both; }
+
+.name {
+  font-size: 2em;
+  font-weight: 600; }
 
 /*# sourceMappingURL=main.css.map */

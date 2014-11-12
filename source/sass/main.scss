@@ -1,24 +1,20 @@
 @import "../bourbon/bourbon";
 @import "../neat/neat";
 @import "../base/base";
-@import "partials/variables";
-@import "partials/nav";
-@import "partials/video";
-@import "partials/cards";
-@import "partials/typography";
+@import "variables";
+@import "nav";
+@import "video";
+@import "cards";
+@import "type";
 
 .hero-img {
-  background-image: url(../img/hero-img.png);
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  background-attachment: fixed;
+  background: $dark-background-color;
 }
 
 .hero-content {
-  display: absolute;
+  display: block;
   @include outer-container;
-  @include pad(10em 2em);
+  @include pad(18em 2em);
   color: $white;
   text-align: center;
 }
@@ -26,4 +22,9 @@
 .main-content {
   @include outer-container;
   @include pad(4em 2em);
+}
+
+.name {
+  font-size: 2em;
+  font-weight: 600;
 }
