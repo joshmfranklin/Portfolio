@@ -352,17 +352,6 @@ input[type="submit"] {
   .proj-card:nth-child(3n+1) {
     clear: left; }
 
-@media screen and (max-width: 780px) {
-  .grid {
-    padding: 10px 10px 100px 10px; }
-
-  .proj-card {
-    float: left;
-    display: block;
-    margin-right: 7.42297%;
-    width: 100%; }
-    .proj-card:last-child {
-      margin-right: 0; } }
 body {
   -webkit-font-smoothing: antialiased;
   background-color: white;
@@ -439,6 +428,20 @@ cite {
   cite:before {
     content: "\2014 \00A0"; }
 
+@media screen and (max-width: 780px) {
+  body {
+    font-size: .8em; }
+
+  .grid {
+    padding: 10px 10px 100px 10px; }
+
+  .proj-card {
+    float: left;
+    display: block;
+    margin-right: 7.42297%;
+    width: 100%; }
+    .proj-card:last-child {
+      margin-right: 0; } }
 .hero-img {
   background: #333; }
 

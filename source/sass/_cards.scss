@@ -72,17 +72,3 @@
   @include omega(3n);
   @include pad(1em 0);
 }
-
-@include media($mobile) {
-  .grid {
-    padding: 10px 10px 100px 10px;
-
-  }
-  .proj-card {
-    @include span-columns(4);
-  }
-}
-
-
-
-

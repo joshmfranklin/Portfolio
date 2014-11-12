@@ -1,5 +1,19 @@
 @include media($mobile) {
-  .main-nav {
-    background-color: red;
+
+  // Global styles
+  // ---------------------------->
+  body {
+    font-size: .8em;
+  }
+
+  // Cards
+  // ---------------------------->
+
+  .grid {
+    padding: 10px 10px 100px 10px;
+
+  }
+  .proj-card {
+    @include span-columns(4);
   }
 }
