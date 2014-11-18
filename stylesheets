@@ -2,22 +2,22 @@
 Errno::ENOENT: No such file or directory @ rb_sysopen - sass
 
 Backtrace:
-/Users/pivotal/.rvm/gems/ruby-2.1.2@pivotal-one-network/gems/sass-3.4.5/lib/sass/plugin/compiler.rb:481:in `read'
-/Users/pivotal/.rvm/gems/ruby-2.1.2@pivotal-one-network/gems/sass-3.4.5/lib/sass/plugin/compiler.rb:481:in `update_stylesheet'
-/Users/pivotal/.rvm/gems/ruby-2.1.2@pivotal-one-network/gems/sass-3.4.5/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
-/Users/pivotal/.rvm/gems/ruby-2.1.2@pivotal-one-network/gems/sass-3.4.5/lib/sass/plugin/compiler.rb:209:in `each'
-/Users/pivotal/.rvm/gems/ruby-2.1.2@pivotal-one-network/gems/sass-3.4.5/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
-/Users/pivotal/.rvm/gems/ruby-2.1.2@pivotal-one-network/gems/sass-3.4.5/lib/sass/plugin/compiler.rb:293:in `watch'
-/Users/pivotal/.rvm/gems/ruby-2.1.2@pivotal-one-network/gems/sass-3.4.5/lib/sass/plugin.rb:108:in `method_missing'
-/Users/pivotal/.rvm/gems/ruby-2.1.2@pivotal-one-network/gems/sass-3.4.5/lib/sass/exec/sass_scss.rb:370:in `watch_or_update'
-/Users/pivotal/.rvm/gems/ruby-2.1.2@pivotal-one-network/gems/sass-3.4.5/lib/sass/exec/sass_scss.rb:50:in `process_result'
-/Users/pivotal/.rvm/gems/ruby-2.1.2@pivotal-one-network/gems/sass-3.4.5/lib/sass/exec/base.rb:52:in `parse'
-/Users/pivotal/.rvm/gems/ruby-2.1.2@pivotal-one-network/gems/sass-3.4.5/lib/sass/exec/base.rb:19:in `parse!'
-/Users/pivotal/.rvm/gems/ruby-2.1.2@pivotal-one-network/gems/sass-3.4.5/bin/sass:13:in `<top (required)>'
-/Users/pivotal/.rvm/gems/ruby-2.1.2@pivotal-one-network/bin/sass:23:in `load'
-/Users/pivotal/.rvm/gems/ruby-2.1.2@pivotal-one-network/bin/sass:23:in `<main>'
-/Users/pivotal/.rvm/gems/ruby-2.1.2@pivotal-one-network/bin/ruby_executable_hooks:15:in `eval'
-/Users/pivotal/.rvm/gems/ruby-2.1.2@pivotal-one-network/bin/ruby_executable_hooks:15:in `<main>'
+/Users/joshfranklin/.rvm/gems/ruby-2.1.5/gems/sass-3.4.5/lib/sass/plugin/compiler.rb:481:in `read'
+/Users/joshfranklin/.rvm/gems/ruby-2.1.5/gems/sass-3.4.5/lib/sass/plugin/compiler.rb:481:in `update_stylesheet'
+/Users/joshfranklin/.rvm/gems/ruby-2.1.5/gems/sass-3.4.5/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/Users/joshfranklin/.rvm/gems/ruby-2.1.5/gems/sass-3.4.5/lib/sass/plugin/compiler.rb:209:in `each'
+/Users/joshfranklin/.rvm/gems/ruby-2.1.5/gems/sass-3.4.5/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/Users/joshfranklin/.rvm/gems/ruby-2.1.5/gems/sass-3.4.5/lib/sass/plugin/compiler.rb:293:in `watch'
+/Users/joshfranklin/.rvm/gems/ruby-2.1.5/gems/sass-3.4.5/lib/sass/plugin.rb:108:in `method_missing'
+/Users/joshfranklin/.rvm/gems/ruby-2.1.5/gems/sass-3.4.5/lib/sass/exec/sass_scss.rb:370:in `watch_or_update'
+/Users/joshfranklin/.rvm/gems/ruby-2.1.5/gems/sass-3.4.5/lib/sass/exec/sass_scss.rb:50:in `process_result'
+/Users/joshfranklin/.rvm/gems/ruby-2.1.5/gems/sass-3.4.5/lib/sass/exec/base.rb:52:in `parse'
+/Users/joshfranklin/.rvm/gems/ruby-2.1.5/gems/sass-3.4.5/lib/sass/exec/base.rb:19:in `parse!'
+/Users/joshfranklin/.rvm/gems/ruby-2.1.5/gems/sass-3.4.5/bin/sass:13:in `<top (required)>'
+/Users/joshfranklin/.rvm/gems/ruby-2.1.5/bin/sass:23:in `load'
+/Users/joshfranklin/.rvm/gems/ruby-2.1.5/bin/sass:23:in `<main>'
+/Users/joshfranklin/.rvm/gems/ruby-2.1.5/bin/ruby_executable_hooks:15:in `eval'
+/Users/joshfranklin/.rvm/gems/ruby-2.1.5/bin/ruby_executable_hooks:15:in `<main>'
 */
 body:before {
   white-space: pre;

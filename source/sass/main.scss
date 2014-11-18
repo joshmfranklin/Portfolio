@@ -15,9 +15,20 @@
 .hero-content {
   display: block;
   @include outer-container;
-  @include pad(18em 2em);
+  @include pad(12em 2em);
   color: $white;
   text-align: center;
+
+  h1,
+  h2 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 200;
+  }
+
+  h1 {
+    @include pad(0 0 1em 0);
+  }
 }
 
 .main-content {
