@@ -6,28 +6,38 @@
 @import "video";
 @import "cards";
 @import "type";
+@import "links";
 @import "mobile";
 
-.hero-img {
-  background: $dark-background-color;
+.hero {
+  // background-image: url(../img/pattern.jpg);
+  // background-repeat: repeat-x;
+  // background-position: fixed;
 }
 
 .hero-content {
   display: block;
   @include outer-container;
-  @include pad(12em 2em);
-  color: $white;
+  @include pad(10em 2em);
+  color: $base-font-color;
   text-align: center;
+  z-index: 100;
 
   h1,
-  h2 {
+  h2,
+  h3 {
     text-transform: uppercase;
-    letter-spacing: 2px;
+    letter-spacing: 4px;
     font-weight: 200;
   }
 
-  h1 {
+  h1,
+  h2 {
     @include pad(0 0 1em 0);
+  }
+
+  i {
+    font-size: 1.25em;
   }
 }
 

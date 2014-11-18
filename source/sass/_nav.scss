@@ -1,5 +1,6 @@
 .main-nav {
   background-color: $nav-bg-color;
+  border-bottom: $base-border;
 }
 
 .nav-container {
@@ -7,11 +8,7 @@
   @include pad(1em 0);
 }
 
-.nav-right{
-  @include span-columns(6);
-}
-
-.nav-left {
+.nav-section {
   @include span-columns(6);
 }
 
@@ -19,12 +16,14 @@
   text-transform: uppercase;
   color: $nav-txt-color;
   font-size: 1.5em;
+  font-weight: 200;
   letter-spacing: .15em;
 }
 
 .nav-links {
   float: right;
   color: $nav-txt-color;
+  padding-top: .3em;
 
   li {
     @include pad(0 0 0 2em);
