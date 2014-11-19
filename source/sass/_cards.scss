@@ -12,7 +12,7 @@
       margin: 0;
       position: relative;
     img {
-        max-width: 100%;
+        width: 100%;
         display: block;
         position: relative;
     }
@@ -68,7 +68,7 @@
 }
 
 .proj-card {
-  @include span-columns(4);
-  @include omega(3n);
+  @include span-columns(6);
+  @include omega(2n);
   @include pad(1em 0);
 }
