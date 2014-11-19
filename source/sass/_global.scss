@@ -1,0 +1,59 @@
+// Hero
+// ---------------------------->
+
+.hero-content {
+  display: block;
+  @include outer-container;
+  @include pad(10em 2em);
+  color: $base-font-color;
+  text-align: center;
+  z-index: 100;
+
+  h1,
+  h2,
+  h3 {
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-weight: 200;
+  }
+
+  h1,
+  h2 {
+    @include pad(0 0 1em 0);
+  }
+
+  i {
+    font-size: 1.25em;
+  }
+}
+
+// Work
+// ---------------------------->
+
+.content-section {
+  @include outer-container;
+  @include pad(4em 1em);
+}
+
+// About
+// ---------------------------->
+
+.about-img {
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-image: url(../img/me2.jpg);
+  background-size: 100%;
+  height: 300px;
+  width: 300px;
+  border-radius: 400px;
+  margin: 0 auto 3em auto;
+}
+
+.about-desc {
+  @include pad(0 4em);
+  font-weight: 200;
+  line-height: 1.5em;
+}
+
+
+
