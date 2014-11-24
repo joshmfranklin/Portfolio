@@ -234,7 +234,9 @@ input[type="submit"] {
   padding: 10em 2em;
   color: #333;
   text-align: center;
-  z-index: 100; }
+  z-index: 100;
+  -webkit-animation-duration: 2s;
+  -webkit-animation-delay: .5s; }
   .hero-content:after {
     content: "";
     display: table;
@@ -290,11 +292,13 @@ input[type="submit"] {
     display: table;
     clear: both; }
 
+.nav-branding,
 .nav-section {
   float: left;
   display: block;
   margin-right: 2.35765%;
   width: 48.82117%; }
+  .nav-branding:last-child,
   .nav-section:last-child {
     margin-right: 0; }
 
@@ -313,12 +317,26 @@ input[type="submit"] {
     padding: 0 0 0 2em;
     display: inline-block; }
 
-@media screen and (max-width: 780px) {
-  .nav-container {
-    padding: 1.5em 1em; }
+.mobile-btn {
+  width: 40px;
+  height: 34px;
+  padding-top: 6px;
+  background: none;
+  outline: none;
+  cursor: pointer;
+  float: right;
+  display: none; }
+  .mobile-btn:hover span {
+    background: #333; }
+  .mobile-btn span {
+    width: 25px;
+    height: 4px;
+    background: #ccc;
+    display: block;
+    margin: auto;
+    border-radius: 3px;
+    margin-bottom: 3px; }
 
-  .nav-left {
-    display: none; } }
 .bg-vid {
   position: absolute;
   right: 0;
@@ -488,6 +506,9 @@ cite {
   body {
     font-size: .8em; }
 
+  .hero-content {
+    padding: 5rem 2rem; }
+
   .about-desc {
     padding: 0 1em;
     float: left;
@@ -496,6 +517,40 @@ cite {
     width: 100%; }
     .about-desc:last-child {
       margin-right: 0; }
+
+  .nav-container {
+    padding: 1.5em 1em; }
+
+  .nav-branding {
+    display: none; }
+
+  .nav-section {
+    float: left;
+    display: block;
+    margin-right: 7.42297%;
+    width: 100%; }
+    .nav-section:last-child {
+      margin-right: 0; }
+
+  .mobile-btn {
+    display: inline-block; }
+
+  .nav-links {
+    float: left;
+    display: block;
+    margin-right: 7.42297%;
+    width: 100%;
+    display: none; }
+    .nav-links:last-child {
+      margin-right: 0; }
+    .nav-links li {
+      padding: 0 0 1rem 0;
+      display: block;
+      font-size: 1.25rem;
+      text-align: center; }
+
+  .lista {
+    display: block; }
 
   .grid {
     padding: 10px 10px 100px 10px; }

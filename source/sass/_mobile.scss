@@ -6,10 +6,49 @@
     font-size: .8em;
   }
 
+  .hero-content {
+    @include pad(5rem 2rem);
+  }
+
   .about-desc {
     @include pad(0 1em);
     @include span-columns(4);
   }
+
+  // Nav
+  // ---------------------------->
+  .nav-container {
+    @include pad(1.5em 1em);
+  }
+
+  .nav-branding {
+    display: none;
+  }
+
+  .nav-section {
+    @include span-columns(4);
+  }
+
+  .mobile-btn {
+    display: inline-block;
+  }
+
+  .nav-links {
+    @include span-columns(4);
+    display: none;
+
+    li {
+      @include pad(0 0 1rem 0);
+      display: block;
+      font-size: 1.25rem;
+      text-align: center; 
+    }
+  }
+
+  .lista{
+    display: block;
+  }
+
 
   // Cards
   // ---------------------------->

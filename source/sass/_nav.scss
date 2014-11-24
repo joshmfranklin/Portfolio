@@ -8,6 +8,7 @@
   @include pad(1em 0);
 }
 
+.nav-branding,
 .nav-section {
   @include span-columns(6);
 }
@@ -32,11 +33,34 @@
   }
 }
 
+//Responsive Menu
+.mobile-btn {
+  width:40px;
+  height:34px;
+  padding-top:6px;
+  background:none;
+  outline:none;
+  cursor:pointer;
+  float: right;
+  display: none;
+
+  &:hover {
+    span {
+      background: $base-font-color;
+    }
+  }
+
+  span{
+    width:25px;
+    height:4px;
+    background:#ccc;
+    display: block;
+    margin:auto;
+    border-radius:3px;
+    margin-bottom:3px; 
+  }
+}
+
 @include media($mobile) {
-  .nav-container {
-    @include pad(1.5em 1em);
-  }
-  .nav-left {
-    display: none;
-  }
+  
 }
