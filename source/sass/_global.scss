@@ -1,4 +1,4 @@
-// Hero
+// Homepage
 // ---------------------------->
 
 .hero-content {
@@ -29,10 +29,7 @@
   }
 }
 
-// Work
-// ---------------------------->
-
-#work {
+#project {
   background: $medium-background-color;
 }
 
@@ -40,6 +37,50 @@
   @include outer-container;
   @include pad(4em 1em 4em 1em);
 }
+
+// Projects
+// ---------------------------->
+
+.project-title {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 200;
+  margin-bottom: 2rem;
+}
+
+.project-hero {
+  img {
+    width: 100%;
+  }
+}
+
+.intro {
+  @include span-columns(6);
+  @include pad(0 0 1rem 0);
+
+  hr {
+    width: 25%;
+    border: 2px solid $base-border-color;
+  }
+}
+
+.details {
+  @include span-columns(6);
+  font-weight: 200;
+}
+
+.half-img {
+  @include span-columns(6);
+  @extend .full-img;
+}
+
+.full-img {
+  padding-bottom: 1em;
+  img {
+    width: 100%;
+  }
+}
+
 
 // About
 // ---------------------------->

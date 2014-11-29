@@ -253,7 +253,7 @@ input[type="submit"] {
   .hero-content i {
     font-size: 1.25em; }
 
-#work {
+#project {
   background: #F9F9F9; }
 
 .content-section {
@@ -265,6 +265,49 @@ input[type="submit"] {
     content: "";
     display: table;
     clear: both; }
+
+.project-title {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 200;
+  margin-bottom: 2rem; }
+
+.project-hero img {
+  width: 100%; }
+
+.intro {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 48.82117%;
+  padding: 0 0 1rem 0; }
+  .intro:last-child {
+    margin-right: 0; }
+  .intro hr {
+    width: 25%;
+    border: 2px solid #DDD; }
+
+.details {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 48.82117%;
+  font-weight: 200; }
+  .details:last-child {
+    margin-right: 0; }
+
+.half-img {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 48.82117%; }
+  .half-img:last-child {
+    margin-right: 0; }
+
+.full-img, .half-img {
+  padding-bottom: 1em; }
+  .full-img img, .half-img img {
+    width: 100%; }
 
 .about-img {
   background-position: 50% 50%;
@@ -590,6 +633,24 @@ cite {
 
   .lista {
     display: block; }
+
+  .intro,
+  .details {
+    float: left;
+    display: block;
+    margin-right: 7.42297%;
+    width: 100%; }
+    .intro:last-child,
+    .details:last-child {
+      margin-right: 0; }
+
+  .half-img {
+    float: left;
+    display: block;
+    margin-right: 7.42297%;
+    width: 100%; }
+    .half-img:last-child {
+      margin-right: 0; }
 
   .grid {
     padding: 10px 10px 100px 10px; }

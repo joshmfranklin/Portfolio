@@ -54,6 +54,18 @@
     display: block;
   }
 
+  // Projects
+  // ---------------------------->
+
+  .intro,
+  .details {
+    @include span-columns(4);
+  }
+
+  .half-img {
+    @include span-columns(4);
+  }
+
 
   // Cards
   // ---------------------------->

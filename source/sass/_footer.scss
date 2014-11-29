@@ -1,0 +1,19 @@
+.main-footer {
+  background-color: $nav-bg-color;
+  border-top: $base-border;
+  margin-top: 4em;
+}
+
+.footer-container {
+  @include outer-container;
+  @include pad(1em 0);
+}
+
+.copyright {
+  @include span-columns(6);
+  color: $light-font-color;
+}
+
+.social {
+  @include span-columns(6);
+}
