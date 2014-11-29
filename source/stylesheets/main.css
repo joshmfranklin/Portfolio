@@ -253,11 +253,14 @@ input[type="submit"] {
   .hero-content i {
     font-size: 1.25em; }
 
+#work {
+  background: #F9F9F9; }
+
 .content-section {
   max-width: 68em;
   margin-left: auto;
   margin-right: auto;
-  padding: 4em 1em; }
+  padding: 4em 1em 4em 1em; }
   .content-section:after {
     content: "";
     display: table;
@@ -279,7 +282,7 @@ input[type="submit"] {
   line-height: 1.5em; }
 
 .main-nav {
-  background-color: white;
+  background-color: #fff;
   border-bottom: 1px solid #DDD; }
 
 .nav-container {
@@ -336,6 +339,38 @@ input[type="submit"] {
     margin: auto;
     border-radius: 3px;
     margin-bottom: 3px; }
+
+.main-footer {
+  background-color: #fff;
+  border-top: 1px solid #DDD;
+  margin-top: 4em; }
+
+.footer-container {
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1em 0; }
+  .footer-container:after {
+    content: "";
+    display: table;
+    clear: both; }
+
+.copyright {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 48.82117%;
+  color: #999; }
+  .copyright:last-child {
+    margin-right: 0; }
+
+.social {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 48.82117%; }
+  .social:last-child {
+    margin-right: 0; }
 
 .bg-vid {
   position: absolute;
@@ -417,7 +452,7 @@ input[type="submit"] {
 
 body {
   -webkit-font-smoothing: antialiased;
-  background-color: white;
+  background-color: #fff;
   color: #333;
   font-family: 'Roboto Condensed', sans-serif !important;
   font-size: 1em;
@@ -508,6 +543,10 @@ cite {
 
   .hero-content {
     padding: 5rem 2rem; }
+
+  .about-img {
+    height: 250px;
+    width: 250px; }
 
   .about-desc {
     padding: 0 1em;

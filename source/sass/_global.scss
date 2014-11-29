@@ -32,9 +32,13 @@
 // Work
 // ---------------------------->
 
+#work {
+  background: $medium-background-color;
+}
+
 .content-section {
   @include outer-container;
-  @include pad(4em 1em);
+  @include pad(4em 1em 4em 1em);
 }
 
 // About

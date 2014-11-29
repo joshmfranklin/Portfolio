@@ -28,20 +28,21 @@ $dark-blue: #2c3f52;
 $dark-gray: #333;
 $medium-gray: #999;
 $light-gray: #DDD;
+$almost-white: #F9F9F9;
 $white: #fff;
 $light-red: #FBE3E4;
 $light-yellow: #FFF6BF;
 $light-green: #E6EFC2;
 
 // Background Color
-$base-background-color: white;
+$base-background-color: $white;
 $dark-background-color: $dark-gray;
-$medium-background-color: $light-gray;
+$medium-background-color: $almost-white;
 
 // Font Colors
 $base-font-color: $dark-gray;
 $base-accent-color: $blue;
-$light-font-color: $light-gray;
+$light-font-color: $medium-gray;
 
 // Link Colors
 $base-link-color: $base-accent-color;
@@ -74,7 +75,7 @@ $form-font-family: $base-font-family;
 // Components
 // ------------------------------------------
 
-//Nav
+//Nav/Footer
 $nav-bg-color: $base-background-color;
 $nav-txt-color: $dark-gray;
 
