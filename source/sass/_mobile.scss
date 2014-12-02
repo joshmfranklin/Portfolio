@@ -3,8 +3,19 @@
   // Global styles
   // ---------------------------->
   body {
-    font-size: .8em;
+    font-size: 1rem;
   }
+
+  .content-section {
+    @include pad(2rem 1rem);
+  }
+
+  .section-title {
+    @include pad(0 0 1rem 0);
+  }
+
+  // Home Page
+  // ---------------------------->
 
   .hero-content {
     @include pad(5rem 2rem);
@@ -16,14 +27,14 @@
   }
 
   .about-desc {
-    @include pad(0 1em);
+    @include pad(0);
     @include span-columns(4);
   }
 
   // Nav
   // ---------------------------->
   .nav-container {
-    @include pad(1.5em 1em);
+    @include pad(1.5rem 1rem);
   }
 
   .nav-branding {
@@ -54,6 +65,27 @@
     display: block;
   }
 
+  // Footer
+  // ---------------------------->
+
+  .footer-container {
+    @include pad(1rem 1rem);
+  }
+
+  .copyright,
+  .social {
+    @include span-columns(4);
+  }
+
+  .footer-links {
+    @include pad(1rem 0);
+    float: left;
+    li {
+      @include pad(1rem 0 0 0);
+      display: block;
+    }
+  }
+
   // Projects
   // ---------------------------->
 
@@ -70,10 +102,6 @@
   // Cards
   // ---------------------------->
 
-  .grid {
-    padding: 10px 10px 100px 10px;
-
-  }
   .proj-card {
     @include span-columns(4);
   }

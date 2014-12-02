@@ -1,17 +1,28 @@
 .main-footer {
   background-color: $nav-bg-color;
   border-top: $base-border;
-  margin-top: 4em;
+  margin-top: 4rem;
 }
 
 .footer-container {
   @include outer-container;
-  @include pad(1em 0);
+  @include pad(1rem 1rem);
+}
+
+.footer-links {
+	float: right;
+	color: $nav-txt-color;
+	
+	li {
+    @include pad(0 0 0 2rem);
+    display: inline-block;
+
+  }
 }
 
 .copyright {
   @include span-columns(6);
-  color: $light-font-color;
+  color: $base-font-color;
 }
 
 .social {

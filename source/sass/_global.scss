@@ -1,10 +1,22 @@
+.content-section {
+  @include outer-container;
+  @include pad(4rem 1rem 4rem 1rem);
+}
+
+.section-title {
+  @include pad(0 0 2rem 0);
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 200;
+}
+
 // Homepage
 // ---------------------------->
 
 .hero-content {
   display: block;
   @include outer-container;
-  @include pad(10em 2em);
+  @include pad(10rem 2rem);
   color: $base-font-color;
   text-align: center;
   z-index: 100;
@@ -21,37 +33,50 @@
 
   h1,
   h2 {
-    @include pad(0 0 1em 0);
+    @include pad(0 0 1rem 0);
   }
 
   i {
-    font-size: 1.25em;
+    font-size: 1.25rem;
   }
 }
 
-#project {
+#projects {
   background: $medium-background-color;
 }
 
-.content-section {
-  @include outer-container;
-  @include pad(4em 1em 4em 1em);
+.about-img {
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-image: url(../img/me2.jpg);
+  background-size: 100%;
+  height: 300px;
+  width: 300px;
+  border-radius: 400px;
+  margin: 0 auto 3em auto;
+}
+
+.about-desc {
+  @include pad(0 10rem);
+  font-weight: 200;
+  line-height: 1.5rem;
 }
 
 // Projects
 // ---------------------------->
 
 .project-title {
+  @include pad(10rem 0);
   text-align: center;
   text-transform: uppercase;
-  font-weight: 200;
-  margin-bottom: 2rem;
+  color: $light-font-color; 
 }
 
 .project-hero {
-  img {
-    width: 100%;
-  }
+  background: url(../img/hero-img.png);
+  background-size: cover;
+  background-position:center center;
+  background-attachment: fixed;
 }
 
 .intro {
@@ -75,31 +100,10 @@
 }
 
 .full-img {
-  padding-bottom: 1em;
+  padding-bottom: 1rem;
   img {
     width: 100%;
   }
-}
-
-
-// About
-// ---------------------------->
-
-.about-img {
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
-  background-image: url(../img/me2.jpg);
-  background-size: 100%;
-  height: 300px;
-  width: 300px;
-  border-radius: 400px;
-  margin: 0 auto 3em auto;
-}
-
-.about-desc {
-  @include pad(0 4em);
-  font-weight: 200;
-  line-height: 1.5em;
 }
 
 
