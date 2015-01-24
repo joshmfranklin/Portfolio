@@ -886,7 +886,14 @@ cite:before {
 
   /* line 40, ../sass/_mobile.scss */
   .nav-branding {
-    display: none;
+    float: left;
+    display: block;
+    margin-right: 7.42297%;
+    width: 46.28851%;
+  }
+  /* line 38, ../neat/grid/_span-columns.scss */
+  .nav-branding:last-child {
+    margin-right: 0;
   }
 
   /* line 44, ../sass/_mobile.scss */

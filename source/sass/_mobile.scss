@@ -38,7 +38,7 @@
   }
 
   .nav-branding {
-    display: none;
+    @include span-columns(2);
   }
 
   .nav-section {
