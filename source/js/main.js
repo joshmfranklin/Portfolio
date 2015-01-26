@@ -10,5 +10,4 @@ $( document ).ready(function() {
 	$(".mobile-btn").click(function(){
 	    $("ul").toggleClass("lista");
 	});
-    
 });
