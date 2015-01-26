@@ -1,6 +1,6 @@
 .content-section {
   @include outer-container;
-  @include pad(4rem 1rem 4rem 1rem);
+  @include pad(3rem 1rem);
 }
 
 .section-title {
@@ -66,17 +66,14 @@
 // ---------------------------->
 
 .project-title {
-  @include pad(10rem 0);
-  text-align: center;
   text-transform: uppercase;
-  color: $light-font-color; 
-}
+  color: $base-font-color; 
+  font-weight: 200;
 
-.project-hero {
-  background: url(../img/hero-img.png);
-  background-size: cover;
-  background-position:center center;
-  background-attachment: fixed;
+  h1,
+  h2 {
+    font-weight: 200;
+  }
 }
 
 .intro {
@@ -104,6 +101,10 @@
   img {
     width: 100%;
   }
+}
+
+.full {
+  @include fill-parent();
 }
 
 

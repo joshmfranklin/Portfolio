@@ -317,7 +317,7 @@ input[type="submit"] {
   max-width: 68em;
   margin-left: auto;
   margin-right: auto;
-  padding: 4rem 1rem 4rem 1rem;
+  padding: 3rem 1rem;
 }
 /* line 15, ../bourbon/addons/_clearfix.scss */
 .content-section:after {
@@ -397,21 +397,17 @@ input[type="submit"] {
 
 /* line 68, ../sass/_global.scss */
 .project-title {
-  padding: 10rem 0;
-  text-align: center;
   text-transform: uppercase;
-  color: #F9F9F9;
+  color: #333;
+  font-weight: 200;
+}
+/* line 73, ../sass/_global.scss */
+.project-title h1,
+.project-title h2 {
+  font-weight: 200;
 }
 
-/* line 75, ../sass/_global.scss */
-.project-hero {
-  background: url(../img/hero-img.png);
-  background-size: cover;
-  background-position: center center;
-  background-attachment: fixed;
-}
-
-/* line 82, ../sass/_global.scss */
+/* line 79, ../sass/_global.scss */
 .intro {
   float: left;
   display: block;
@@ -423,13 +419,13 @@ input[type="submit"] {
 .intro:last-child {
   margin-right: 0;
 }
-/* line 86, ../sass/_global.scss */
+/* line 83, ../sass/_global.scss */
 .intro hr {
   width: 25%;
   border: 2px solid #DDD;
 }
 
-/* line 92, ../sass/_global.scss */
+/* line 89, ../sass/_global.scss */
 .details {
   float: left;
   display: block;
@@ -442,7 +438,7 @@ input[type="submit"] {
   margin-right: 0;
 }
 
-/* line 97, ../sass/_global.scss */
+/* line 94, ../sass/_global.scss */
 .half-img {
   float: left;
   display: block;
@@ -454,12 +450,17 @@ input[type="submit"] {
   margin-right: 0;
 }
 
-/* line 102, ../sass/_global.scss */
+/* line 99, ../sass/_global.scss */
 .full-img, .half-img {
   padding-bottom: 1rem;
 }
-/* line 104, ../sass/_global.scss */
+/* line 101, ../sass/_global.scss */
 .full-img img, .half-img img {
+  width: 100%;
+}
+
+/* line 106, ../sass/_global.scss */
+.full {
   width: 100%;
 }
 
