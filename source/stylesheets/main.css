@@ -335,12 +335,18 @@ input[type="submit"] {
 }
 
 /* line 16, ../sass/_global.scss */
+.hero {
+  display: relative;
+  padding: 10rem 2rem;
+}
+
+/* line 21, ../sass/_global.scss */
 .hero-content {
+  display: absolute;
   display: block;
   max-width: 68em;
   margin-left: auto;
   margin-right: auto;
-  padding: 10rem 2rem;
   color: #333;
   text-align: center;
   z-index: 100;
@@ -353,7 +359,7 @@ input[type="submit"] {
   display: table;
   clear: both;
 }
-/* line 26, ../sass/_global.scss */
+/* line 31, ../sass/_global.scss */
 .hero-content h1,
 .hero-content h2,
 .hero-content h3 {
@@ -361,22 +367,22 @@ input[type="submit"] {
   letter-spacing: 4px;
   font-weight: 200;
 }
-/* line 34, ../sass/_global.scss */
+/* line 39, ../sass/_global.scss */
 .hero-content h1,
 .hero-content h2 {
   padding: 0 0 1rem 0;
 }
-/* line 39, ../sass/_global.scss */
+/* line 44, ../sass/_global.scss */
 .hero-content i {
   font-size: 1.25rem;
 }
 
-/* line 44, ../sass/_global.scss */
+/* line 49, ../sass/_global.scss */
 #projects {
   background: #F9F9F9;
 }
 
-/* line 48, ../sass/_global.scss */
+/* line 53, ../sass/_global.scss */
 .about-img {
   background-position: 50% 50%;
   background-repeat: no-repeat;
@@ -388,26 +394,26 @@ input[type="submit"] {
   margin: 0 auto 3em auto;
 }
 
-/* line 59, ../sass/_global.scss */
+/* line 64, ../sass/_global.scss */
 .about-desc {
   padding: 0 10rem;
   font-weight: 200;
   line-height: 1.5rem;
 }
 
-/* line 68, ../sass/_global.scss */
+/* line 73, ../sass/_global.scss */
 .project-title {
   text-transform: uppercase;
   color: #333;
   font-weight: 200;
 }
-/* line 73, ../sass/_global.scss */
+/* line 78, ../sass/_global.scss */
 .project-title h1,
 .project-title h2 {
   font-weight: 200;
 }
 
-/* line 79, ../sass/_global.scss */
+/* line 84, ../sass/_global.scss */
 .intro {
   float: left;
   display: block;
@@ -419,13 +425,13 @@ input[type="submit"] {
 .intro:last-child {
   margin-right: 0;
 }
-/* line 83, ../sass/_global.scss */
+/* line 88, ../sass/_global.scss */
 .intro hr {
   width: 25%;
   border: 2px solid #DDD;
 }
 
-/* line 89, ../sass/_global.scss */
+/* line 94, ../sass/_global.scss */
 .details {
   float: left;
   display: block;
@@ -438,7 +444,7 @@ input[type="submit"] {
   margin-right: 0;
 }
 
-/* line 94, ../sass/_global.scss */
+/* line 99, ../sass/_global.scss */
 .half-img {
   float: left;
   display: block;
@@ -450,16 +456,16 @@ input[type="submit"] {
   margin-right: 0;
 }
 
-/* line 99, ../sass/_global.scss */
+/* line 104, ../sass/_global.scss */
 .full-img, .half-img {
   padding-bottom: 1rem;
 }
-/* line 101, ../sass/_global.scss */
+/* line 106, ../sass/_global.scss */
 .full-img img, .half-img img {
   width: 100%;
 }
 
-/* line 106, ../sass/_global.scss */
+/* line 111, ../sass/_global.scss */
 .full {
   width: 100%;
 }
