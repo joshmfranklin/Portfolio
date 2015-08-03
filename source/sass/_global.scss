@@ -15,7 +15,7 @@
 
 .hero {
   display: relative;
-  @include pad(10rem 2rem);
+  @include pad(14rem 2rem 0 2rem);
 }
 
 .hero-content {

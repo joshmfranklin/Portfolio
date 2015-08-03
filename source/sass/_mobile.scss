@@ -17,6 +17,10 @@
   // Home Page
   // ---------------------------->
 
+  .hero {
+    @include pad(4rem 2rem);
+  }
+
   .hero-content {
     @include pad(5rem 2rem);
   }

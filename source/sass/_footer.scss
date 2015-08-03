@@ -1,12 +1,14 @@
 .main-footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
   background-color: $nav-bg-color;
   border-top: $base-border;
-  margin-top: 4rem;
 }
 
 .footer-container {
   @include outer-container;
-  @include pad(1rem 1rem);
+  @include pad(.5rem 1rem);
 }
 
 .footer-links {
