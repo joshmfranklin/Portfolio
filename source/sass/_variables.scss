@@ -33,11 +33,14 @@ $white: #fff;
 $light-red: #FBE3E4;
 $light-yellow: #FFF6BF;
 $light-green: #E6EFC2;
+$seafoam: #2DCCAC;
+$white: #fff;
 
 // Background Color
 $base-background-color: $white;
 $dark-background-color: $dark-gray;
 $medium-background-color: $almost-white;
+$seafoam-background-color: $seafoam;
 
 // Font Colors
 $base-font-color: $dark-gray;
@@ -50,8 +53,8 @@ $base-link-color: $base-accent-color;
 $hover-link-color: darken($base-accent-color, 15);
 $base-button-color: $base-link-color;
 $hover-button-color: $hover-link-color;
-$invert-link-color: $medium-gray;
-$invert-hover-link-color: $dark-gray;
+$invert-link-color: $almost-white;
+$invert-hover-link-color: $white;
 
 // Flash Colors
 $alert-color: $light-yellow;

@@ -1,3 +1,7 @@
+body, html {
+  height: 100%;
+}
+
 .content-section {
   @include outer-container;
   @include pad(3rem 1rem);
@@ -22,7 +26,7 @@
   display: absolute;
   display: block;
   @include outer-container;
-  color: $base-font-color;
+  color: $extra-light-font-color;
   text-align: center;
   z-index: 100;
   -webkit-animation-duration: 2s;

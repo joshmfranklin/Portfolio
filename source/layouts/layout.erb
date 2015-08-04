@@ -22,7 +22,7 @@
         <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:700italic,400,300' rel='stylesheet' type='text/css'>
 
     </head>
-    <body>
+    <body id="gradient-bg">
         <!-- <div class="main-nav">
           <div class="nav-container">
             <a class="nav-branding" href="index.html">JF</a>
@@ -77,6 +77,30 @@
             (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
             g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
             s.parentNode.insertBefore(g,s)}(document,'script'));
+        </script>
+        <script type="text/javascript">
+            var originalBGplaypen = $("#gradient-bg").css("background-color"),
+            x, y, xy, bgWebKit, bgMoz, 
+            lightColor = "#477DCA",
+            gradientSize = 1300;
+                
+            // Basic Demo
+            $('#gradient-bg').mousemove(function(e) {
+            
+                x  = e.pageX - this.offsetLeft;
+                y  = e.pageY - this.offsetTop;
+                xy = x + " " + y;
+                   
+                bgWebKit = "-webkit-gradient(radial, " + xy + ", 0, " + xy + ", " + gradientSize + ", from(" + lightColor + "), to(#2DCCAC)), " + originalBGplaypen;
+                bgMoz    = "-moz-radial-gradient(" + x + "px " + y + "px 45deg, circle, " + lightColor + " 0%, " + originalBGplaypen + " " + gradientSize + "px)";
+                                    
+                $(this)
+                    .css({ background: bgWebKit })
+                    .css({ background: bgMoz });
+                
+            }).mouseleave(function() {            
+                $(this).css("background-color", "originalBGplaypen");
+            });
         </script>
     </body>
 </html>

@@ -1,7 +1,7 @@
 body {
   -webkit-font-smoothing: antialiased;
-  background-color: $base-background-color;
-  color: $base-font-color;
+  background: -webkit-linear-gradient($seafoam, $blue);
+  color: $extra-light-font-color;
   font-family: 'Roboto Condensed', sans-serif !important;
   font-size: $base-font-size;
   line-height: $base-line-height;

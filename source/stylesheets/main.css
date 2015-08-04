@@ -226,6 +226,9 @@ input[type="submit"] {
   vertical-align: middle;
   white-space: nowrap; }
 
+body, html {
+  height: 100%; }
+
 .content-section {
   max-width: 68em;
   margin-left: auto;
@@ -252,7 +255,7 @@ input[type="submit"] {
   max-width: 68em;
   margin-left: auto;
   margin-right: auto;
-  color: #333;
+  color: #F9F9F9;
   text-align: center;
   z-index: 100;
   -webkit-animation-duration: 2s;
@@ -399,22 +402,20 @@ input[type="submit"] {
   position: fixed;
   bottom: 0;
   width: 100%;
-  background-color: #fff;
-  border-top: 1px solid #DDD; }
+  color: #fff; }
 
 .footer-container {
   max-width: 68em;
   margin-left: auto;
   margin-right: auto;
-  padding: 0.5rem 1rem; }
+  padding: 1rem 1rem; }
   .footer-container:after {
     content: "";
     display: table;
     clear: both; }
 
 .footer-links {
-  float: right;
-  color: #333; }
+  float: right; }
   .footer-links li {
     padding: 0 0 0 2rem;
     display: inline-block; }
@@ -423,8 +424,7 @@ input[type="submit"] {
   float: left;
   display: block;
   margin-right: 2.35765%;
-  width: 48.82117%;
-  color: #333; }
+  width: 48.82117%; }
   .copyright:last-child {
     margin-right: 0; }
 
@@ -517,8 +517,8 @@ input[type="submit"] {
 
 body {
   -webkit-font-smoothing: antialiased;
-  background-color: #fff;
-  color: #333;
+  background: -webkit-linear-gradient(#2DCCAC, #477DCA);
+  color: #F9F9F9;
   font-family: 'Roboto Condensed', sans-serif !important;
   font-size: 1em;
   line-height: 1.5; }
@@ -598,9 +598,9 @@ cite {
     content: "\2014 \00A0"; }
 
 .link-lowlight {
-  color: #999; }
+  color: #F9F9F9; }
   .link-lowlight:hover {
-    color: #333; }
+    color: #fff; }
 
 @media screen and (max-width: 620px) {
   body {

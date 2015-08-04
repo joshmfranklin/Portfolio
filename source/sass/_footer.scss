@@ -2,18 +2,16 @@
   position: fixed;
   bottom: 0;
   width: 100%;
-  background-color: $nav-bg-color;
-  border-top: $base-border;
+  color: #fff;
 }
 
 .footer-container {
   @include outer-container;
-  @include pad(.5rem 1rem);
+  @include pad(1rem 1rem);
 }
 
 .footer-links {
 	float: right;
-	color: $nav-txt-color;
 	
 	li {
     @include pad(0 0 0 2rem);
@@ -24,7 +22,6 @@
 
 .copyright {
   @include span-columns(6);
-  color: $base-font-color;
 }
 
 .social {
