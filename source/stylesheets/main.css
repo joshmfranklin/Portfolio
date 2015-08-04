@@ -598,8 +598,8 @@ cite {
     content: "\2014 \00A0"; }
 
 .link-lowlight {
-  color: #F9F9F9; }
-  .link-lowlight:hover {
+  color: #DDD; }
+  .link-lowlight:hover, .link-lowlight:focus, .link-lowlight:active {
     color: #fff; }
 
 a {

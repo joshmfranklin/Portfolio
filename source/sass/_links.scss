@@ -1,7 +1,9 @@
 .link-lowlight {
 	color: $invert-link-color;
 
-	&:hover {
+	&:hover,
+	&:focus,
+	&:active {
 		color: $invert-hover-link-color;
 	}
 }
