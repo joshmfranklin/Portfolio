@@ -72,6 +72,10 @@
   // Footer
   // ---------------------------->
 
+  .main-footer {
+    position: relative;
+  }
+
   .footer-container {
     @include pad(1rem 1rem);
   }

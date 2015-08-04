@@ -246,8 +246,9 @@ body, html {
   font-weight: 200; }
 
 .hero {
-  display: relative;
-  padding: 14rem 2rem 0 2rem; }
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%); }
 
 .hero-content {
   display: absolute;
@@ -691,6 +692,9 @@ a {
 
   .lista {
     display: block; }
+
+  .main-footer {
+    position: relative; }
 
   .footer-container {
     padding: 1rem 1rem; }

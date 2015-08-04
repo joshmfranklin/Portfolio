@@ -18,8 +18,9 @@ body, html {
 // ---------------------------->
 
 .hero {
-  display: relative;
-  @include pad(14rem 2rem 0 2rem);
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 .hero-content {
