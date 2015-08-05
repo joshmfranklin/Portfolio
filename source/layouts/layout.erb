@@ -20,29 +20,11 @@
         <link rel="stylesheet" href="stylesheets/main.css">
         <script src="js/vendor/modernizr-2.6.1.min.js"></script>
         <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:700italic,400,300' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.3.1/animate.min.css">
 
     </head>
-    <body id="gradient-bg">
-        <!-- <div class="main-nav">
-          <div class="nav-container">
-            <a class="nav-branding" href="index.html">JF</a>
-            <a class="mobile-btn" href="#"><span></span><span></span><span></span></a>
-            <div class="nav-section">
-                <ul class="nav-links">
-                    <li class="nav-item">
-                      <a class="link-lowlight" href="/#projects">Projects</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="link-lowlight" href="/#about">About</a>
-                    </li>
-                </ul>
-            </div>
-          </div> -->
+    <body id="full-page">
         </div>
-        <!--[if lt IE 7]>
-            <p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
-        <![endif]-->
-
         <%= yield %>
 
         <div class="main-footer">
@@ -79,13 +61,25 @@
             s.parentNode.insertBefore(g,s)}(document,'script'));
         </script>
         <script type="text/javascript">
-            var originalBGplaypen = $("#gradient-bg").css("background-color"),
+            $(window).resize(function(){
+               console.log('resize called');
+               var width = $(window).width();
+               if(width >= 700){
+                   $('#full-page').addClass('gradient-bg');
+               }
+               else{
+                   $('#full-page').removeClass('gradient-bg');
+               }
+            })
+            .resize();
+
+            var originalBGplaypen = $(".gradient-bg").css("background-color"),
             x, y, xy, bgWebKit, bgMoz, 
             lightColor = "#477DCA",
             gradientSize = 1300;
                 
             // Basic Demo
-            $('#gradient-bg').mousemove(function(e) {
+            $('.gradient-bg').mousemove(function(e) {
             
                 x  = e.pageX - this.offsetLeft;
                 y  = e.pageY - this.offsetTop;

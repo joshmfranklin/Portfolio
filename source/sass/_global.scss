@@ -2,6 +2,10 @@ body, html {
   height: 100%;
 }
 
+body {
+  @include linear-gradient($seafoam, $blue);
+}
+
 .content-section {
   @include outer-container;
   @include pad(3rem 1rem);
@@ -18,14 +22,13 @@ body, html {
 // ---------------------------->
 
 .hero {
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
+  height: 100%;
 }
 
 .hero-content {
-  display: absolute;
-  display: block;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
   @include outer-container;
   color: $extra-light-font-color;
   text-align: center;
