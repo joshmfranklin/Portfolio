@@ -41,6 +41,9 @@
                             <a class="link-lowlight hover-effect" href="https://twitter.com/JFrank7588" target="_blank">Twitter</a>
                         </li>
                         <li>
+                            <a class="link-lowlight hover-effect" href="http://pivotal.io/labs" target="_blank">Pivotal Labs</a>
+                        </li>
+                        <li>
                             <a class="link-lowlight hover-effect" href="mailto:jfrank7588@gmail.com">Email</a>
                         </li>
                     <ul>
@@ -77,22 +80,22 @@
             x, y, xy, bgWebKit, bgMoz, 
             lightColor = "#477DCA",
             gradientSize = 1300;
-                
+
             // Basic Demo
             $('.gradient-bg').mousemove(function(e) {
-            
+
                 x  = e.pageX - this.offsetLeft;
                 y  = e.pageY - this.offsetTop;
                 xy = x + " " + y;
-                   
+
                 bgWebKit = "-webkit-gradient(radial, " + xy + ", 0, " + xy + ", " + gradientSize + ", from(" + lightColor + "), to(#2DCCAC)), " + originalBGplaypen;
                 bgMoz    = "-moz-radial-gradient(" + x + "px " + y + "px 45deg, circle, " + lightColor + " 0%, " + originalBGplaypen + " " + gradientSize + "px)";
-                                    
+
                 $(this)
                     .css({ background: bgWebKit })
                     .css({ background: bgMoz });
-                
-            }).mouseleave(function() {            
+
+            }).mouseleave(function() {
                 $(this).css("background-color", "originalBGplaypen");
             });
         </script>
