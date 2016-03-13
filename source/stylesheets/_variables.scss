@@ -1,0 +1,65 @@
+// Font Sizes
+$base-font-size: 1em;
+$h1-font-size: $base-font-size * 2.25;
+$h2-font-size: $base-font-size * 2;
+$h3-font-size: $base-font-size * 1.75;
+$h4-font-size: $base-font-size * 1.5;
+$h5-font-size: $base-font-size * 1.25;
+$h6-font-size: $base-font-size;
+
+// Line height
+$base-line-height: 1.5;
+$header-line-height: 1.25;
+
+// Colors
+$blue: #477DCA;
+$dark-blue: #2c3f52;
+$dark-gray: #353535;
+$medium-gray: #999;
+$light-gray: #DDD;
+$almost-white: #F9F9F9;
+$white: #fff;
+$light-red: #FBE3E4;
+$light-yellow: #FFF6BF;
+$light-green: #E6EFC2;
+$seafoam: #2DCCAC;
+$white: #fff;
+
+// Background Color
+$base-background-color: $white;
+$dark-background-color: $dark-gray;
+$medium-background-color: $almost-white;
+$seafoam-background-color: $seafoam;
+
+// Font Colors
+$base-font-color: $dark-gray;
+$base-accent-color: $blue;
+$extra-light-font-color: $almost-white;
+$light-font-color: $medium-gray;
+
+// Link Colors
+$base-link-color: $base-accent-color;
+$hover-link-color: darken($base-accent-color, 15);
+$base-button-color: $base-link-color;
+$hover-button-color: $hover-link-color;
+$invert-link-color: $white;
+$invert-hover-link-color: $white;
+
+// Whitespace
+$whitespace-s:        5px;
+$whitespace-m:        7px;
+$whitespace-l:        10px;
+$whitespace-xl:       20px;
+$whitespace-xxl:      40px;
+$whitespace-xxxl:     120px;
+$whitespace-xxxxl:    140px;
+
+// mobile screen whitespace
+$whitespace-screen-sm-s:     5px;
+$whitespace-screen-sm-m:     7px;
+$whitespace-screen-sm-l:     10px;
+$whitespace-screen-sm-xl:    15px;
+$whitespace-screen-sm-xxl:   20px;
+$whitespace-screen-sm-xxxl:  30px;
+$whitespace-screen-sm-xxxxl: 30px;
+

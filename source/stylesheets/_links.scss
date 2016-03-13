@@ -1,0 +1,20 @@
+.link-invert {
+	color: $invert-link-color;
+
+	&:hover,
+	&:focus,
+	&:active {
+		color: $invert-hover-link-color;
+	}
+}
+
+.link-lowlight {
+  color: $base-font-color;
+
+  &:hover,
+  &:focus,
+  &:active {
+    color: #000;
+    text-decoration: none;
+  }
+}

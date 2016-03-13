@@ -19,5 +19,5 @@ gem 'bourbon'
 # Slim
 gem 'slim'
 
-#Sass
-gem "sass"
+#bootstrap
+gem 'bootstrap-sass', '~> 3.3.6'
