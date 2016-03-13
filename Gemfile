@@ -21,3 +21,6 @@ gem 'slim'
 
 #bootstrap
 gem 'bootstrap-sass', '~> 3.3.6'
+
+#jquery
+gem "jquery-middleman"
