@@ -76,6 +76,13 @@ hr {
   margin: $base-spacing 0;
 }
 
+// type colors
+
 .type-light {
   color: $light-font-color;
+}
+
+// type weights
+.type-bold {
+  font-weight: 900;
 }
