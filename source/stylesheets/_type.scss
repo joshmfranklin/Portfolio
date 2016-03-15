@@ -80,6 +80,10 @@ hr {
   text-align: center;
   font-weight: 900;
   margin: 20px 0;
+
+  @include breakpoint(xs) {
+    font-size: $h4-font-size;
+  }
 }
 
 .section-title {

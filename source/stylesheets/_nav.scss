@@ -1,0 +1,9 @@
+.project-header {
+	.home-link {
+		padding-top: 30px;
+
+		@include breakpoint(xs) {
+			padding-top: 25px;
+		}
+	}
+}

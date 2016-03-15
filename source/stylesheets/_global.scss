@@ -9,6 +9,10 @@
   -webkit-animation-duration: 2s;
   -webkit-animation-delay: .5s;
 
+  @include breakpoint(xs) {
+    margin: 4rem 0;
+  }
+
   h1,
   h2,
   h3 {
