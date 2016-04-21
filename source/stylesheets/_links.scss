@@ -10,11 +10,12 @@
 
 .link-lowlight {
   color: $base-font-color;
+  text-decoration: underline;
 
   &:hover,
   &:focus,
   &:active {
     color: #000;
-    text-decoration: none;
+    text-decoration: underline;
   }
 }
